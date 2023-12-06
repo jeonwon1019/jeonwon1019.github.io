@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FRAMETYPE</title>
+    <style>
+    * {
+        padding: 0;
+        margin: 0;
+    }
+    body {
+        font-family: 'Noto Sans KR';
+        font-size: 18px;
+        color: #444444;
+    }
+    .clear {
+        clear: both;
+    }
+    header {
+        width: 1140px;
+        height: 60px;
+        margin: 0 auto;
+        /*border: solid 1px red;*/
+    }
+    #logo {
+        float: left;
+        margin: 20px 0 0 0px;
+        /*border: solid 1px red;*/
+    }
+    li {
+        list-style-type: none;
+    }
+    nav {
+        width: 1140px;
+        height: 40px;
+        margin: 2px auto 0 auto;
+        /*border: solid 1px red;*/
+        color: black;
+    }
+    nav ul {
+        display: flex; /* flexbox를 사용하여 가로 방향으로 나열 */
+        justify-content: center; /* 가로 방향으로 가운데 정렬 */
+        align-items: center; /* 세로 방향으로 가운데 정렬 */
+        height: 100%;
+    }
+    nav li {
+        margin-left: 30px;
+    }
+    a {
+        text-decoration: none;
+        color: #000000;
+    }
+    a:visited,
+    a:hover,
+    a:active {
+        text-decoration: none;
+    }
+    a:hover,
+    a:active {
+        color: navy;
+        font-weight: bold;
+    }
+    #main_img {
+        width: 100%;
+        height: 230px;
+        background-image: url('./img/main8.png');
+        background-repeat: no-repeat;
+        background-position: top center;
+        margin-top: 10px;
+    }
+    #contents {
+        width: 1140px;
+        margin:  0 auto;
+    }
+    #contents h3 {
+        font-size: 22px;
+        padding-bottom: 8px;
+        border-bottom: solid 2px #cccccc;
+    }
+    #contents h4 {
+        float: left;
+        font-size: 40px;
+        margin: 20px 0 0 40px;
+    }
+
+    #contents h5 {
+        float: right;
+        font-size: 40px;
+        margin: 20px 40px 0 0;
+    }
+    section ul {
+        display: flex; /* flexbox를 사용하여 가로 방향으로 나열 */
+        justify-content: center; /* 가로 방향으로 가운데 정렬 */
+        align-items: center; /* 세로 방향으로 가운데 정렬 */
+        width: 1140px;
+        height: 300px;
+        margin: 0 auto;
+    }
+    section li {
+        width: 570px;
+        height: 300px;
+        margin-left: 0px;
+    }
+    .text1 {
+        float: left;
+        font-size: 18px;
+        padding-top: 70px;
+        margin: 0 0 0 45px;
+    }
+    .text2 {
+        float: right;
+        font-size: 18px;
+        padding-top: 70px;
+        margin: 0 40px 0 0;
+    }
+    .text3 {
+        float: left;
+        font-size: 18px;
+        padding-top: 80px;
+        margin: 0 0 0 45px;
+    }
+    .text4 {
+        float: right;
+        font-size: 18px;
+        padding-top: 90px;
+        margin: 0 40px 0 0;
+    }
+    #box {
+        width: 1140px;
+        height: 10px;
+        margin: 20px auto 0 auto;
+        border-bottom: solid 1px #cccccc;
+    }
+    footer {
+        width: 100%;
+        height: 110px;
+        margin-top: 30px;
+        font-size: 12px;
+        background-color: #2c2a29;
+    }
+    #footer_box{
+        width: 1140px;
+        height: 110px;
+        margin: 0 auto;
+        /*border: solid 1px green;*/
+    }
+    #footer_logo {
+        float: left;
+        margin: 25px 0 0 0px;
+    }
+    #address {
+        float: right;
+        margin: 19px 0 0 0;
+        color: white;
+        /*border: solid 1px red;*/
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <div id="logo">
+          <a href="index.html"><img src="./img/logo.png" width="130"></a>
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <a href='contents1.html'><li>FRAME TYPE</li></a>
+            <li>|</li>
+            <a href='contents2.html'><li>STRUCTURE</li></a>
+            <li>|</li>
+            <a href='contents3.html'><li>CARE</li></a>
+            <li>|</li>
+            <a href='contents4.html'><li>BLANDS</li></a>
+            <li>|</li>
+            <a href='contents5.html'><li>MY GLASSESS</li></a>
+        </ul>
+    </nav>
+
+    <section id="main_img">
+    </section>
+
+    <section id="contents">
+        <div id="contents">
+            <h3>FRAME TYPE</h3>
+        </div>
+    </section>
+
+    <div class="clear"></div><!--속성해제1-->
+
+    <section id="contents">
+        <div id="contents">
+            <br>
+            <h4>TYPE A. 뿔테</h4>
+        </div>
+    </section>
+
+    <div class="clear"></div><!--속성해제1-->
+
+    <section>
+        <ul>
+            <li><p class="text1">
+            뿔테는 이름 그대로 동물의 뿔이나 코끼리 상아,<br>
+            거북이 등껍질 등으로 만들어진 안경테를 말하며<br>
+            현재는 아세테이트 소재의 불테 안경을 제작한다.<br>
+            볼드한 프레임으로 렌즈 두께 커버에 용이하여<br>
+            고도 근시 사용자에게 적합하며 휘거나 부러지는<br>
+            등의 프레임 변형에 강해 관리가 비교적 쉽다.</p></li>
+            <li><img src="./img/glasses1.png"></li>
+        </ul>
+    </section>
+
+    <section>
+        <div id="box">
+        </div>
+    </section>
+
+    <div class="clear"></div><!--속성해제2-->
+
+    <section id="contents">
+        <div id="contents">
+            <h5>TYPE B. 메탈테</h5>
+        </div>
+    </section>
+
+    <div class="clear"></div><!--속성해제2-->
+
+    <section>
+        <ul>
+            <li><img src="./img/glasses2.png"></li>
+            <li><p class="text2">
+                금속제 프레임의 안경을 말하며 베타 티타늄, 퓨어<br>
+                티타늄, 금, 은 등으로 제작되며 금 소재 안경테의<br>
+                경우, 전체가 18k 이상의 경우 금테, 12k와 14k<br>
+                이하의 안경테는 금장테로 불린다. 메탈테는 편안한<br>
+                착용감과 더불어 부드러운 인상을 전하며, 남녀노소<br>
+                누구나 깔끔하고 모던한 분위기를 낼 수 있다.</p></li>
+        </ul>
+    </section>
+
+    <section>
+        <div id="box">
+        </div>
+    </section>
+
+    <div class="clear"></div><!--속성해제3-->
+
+    <section id="contents">
+        <div id="contents">
+            <h4>TYPE C. 하금테</h4>
+        </div>
+    </section>
+
+    <div class="clear"></div><!--속성해제3-->
+
+    <section>
+        <ul>
+            <li><p class="text3">
+                프레임 상단 반은 뿔테 하단 반은 메탈테 구조의 안경테<br>
+                를 '반테', '반무테', '하금테'라고 부른다. 클래식 무드의<br>
+                유니크한 디자인으로 패션 포인트 주기 좋은 안경이며<br>
+                매력적인 실루엣과 더불어 지적인 분위기를 연출 할 수<br>
+                있는 패셔너블한 타입의 프레임이다.</p></li>
+            <li><img src="./img/glasses3.png"></li>
+        </ul>
+    </section>
+
+    <section>
+        <div id="box">
+        </div>
+    </section>
+
+    <div class="clear"></div><!--속성해제4-->
+
+    <section id="contents">
+        <div id="contents">
+            <h5>TYPE D. 무테</h5>
+        </div>
+    </section>
+
+    <div class="clear"></div><!--속성해제4-->
+
+    <section>
+        <ul>
+            <li><img src="./img/glasses4.png"></li>
+            <li><p class="text4">
+                이름 그대로 렌즈 테두리에 테가 옶는 안경테이다. 안경테<br>
+                중 가장 가겹고 프레임이 없어 시야가 넓고 깔끔하게 보이는<br>
+                장점이 있으나 내구성이 약해 착용에 주의를 필요로 한다.<br>
+                깔끔한 실루엣으로 세련된 분위기를 연출 할 수 있다.</p></li>
+        </ul>
+    </section>
+
+    <div class="clear"></div><!--속성해제-->
+    
+    <footer>
+        <div id="footer_box">
+
+        <div id="footer_logo">
+            <img src="./img/logo2.png" width="130">
+        </div>
+        
+        <ul id="address">
+            <li>Address : 81, Hwarang-ro, Deogyang-gu, Goyang-si, Gyeonggi-do, Korea</li>
+            <li>TEL : 010-7275-0308, Instagram : jeonwon1019</li>
+            <li>E-mail : jeonwon1019@naver.com</li>
+            <li>COPYRIGHT (C) JEONWON.ALL RIGHTS RESERVED</li>
+        </ul>
+
+        </div>
+    </footer>
+</body>
+</html>

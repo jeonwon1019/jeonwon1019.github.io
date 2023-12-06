@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index</title>
+    <style>
+    * {
+        padding: 0;
+        margin: 0;
+    }
+    body {
+        font-family: 'Noto Sans KR';
+        font-size: 18px;
+        color: #444444;
+    }
+    .clear {
+        clear: both;
+    }
+    header {
+        width: 1140px;
+        height: 60px;
+        margin: 0 auto;
+        /*border: solid 1px red;*/
+    }
+    #logo {
+        float: left;
+        margin: 20px 0 0 0px;
+        /*border: solid 1px red;*/
+    }
+    li {
+        list-style-type: none;
+    }
+    nav {
+        width: 1140px;
+        height: 40px;
+        margin: 2px auto 0 auto;
+        /*border: solid 1px red;*/
+        color: black;
+    }
+    nav ul {
+        display: flex; /* flexbox를 사용하여 가로 방향으로 나열 */
+        justify-content: center; /* 가로 방향으로 가운데 정렬 */
+        align-items: center; /* 세로 방향으로 가운데 정렬 */
+        height: 100%;
+    }
+    nav li {
+        margin-left: 30px;
+    }
+    a {
+        text-decoration: none;
+        color: #000000;
+    }
+    a:visited,
+    a:hover,
+    a:active {
+        text-decoration: none;
+    }
+    a:hover,
+    a:active {
+        color: navy;
+        font-weight: bold;
+    }
+    #main_img {
+        width: 100%;
+        height: 350px;
+        background-image: url('./img/main1.png');
+        background-repeat: no-repeat;
+        background-position: top center;
+        margin-top: 10px;
+    }
+    #text {
+        text-align: center;
+        font-family: 'Noto Sans KR';
+        width: 1140px;
+        height: 80px;
+        font-size: 36px;
+        padding-top: 20px;
+        /*border: solid 1px red;*/
+        color: black;
+        margin: 0 auto;
+    }
+    #main_img2 {
+        width: 100%;
+        height: 350px;
+        background-image: url('./img/main2.png');
+        background-repeat: no-repeat;
+        background-position: top center;
+    }
+    footer {
+        width: 100%;
+        height: 110px;
+        margin-top: 30px;
+        font-size: 12px;
+        background-color: #2c2a29;
+    }
+    #footer_box{
+        width: 1140px;
+        height: 110px;
+        margin: 0 auto;
+        /*border: solid 1px green;*/
+    }
+    #footer_logo {
+        float: left;
+        margin: 25px 0 0 0px;
+    }
+    #address {
+        float: right;
+        margin: 19px 0 0 0;
+        color: white;
+        /*border: solid 1px red;*/
+    }
+     </style>
+</head>
+<body>
+    <header>
+        <div id="logo">
+          <a href="index.html"><img src="./img/logo.png" width="130"></a>
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <a href='contents1.html'><li>FRAME TYPE</li></a>
+            <li>|</li>
+            <a href='contents2.html'><li>STRUCTURE</li></a>
+            <li>|</li>
+            <a href='contents3.html'><li>CARE</li></a>
+            <li>|</li>
+            <a href='contents4.html'><li>BLANDS</li></a>
+            <li>|</li>
+            <a href='contents5.html'><li>MY GLASSESS</li></a>
+        </ul>
+    </nav>
+    
+    <section id="main_img">
+    </section>
+
+    <section id="text">
+        Special glasses for you Optical : B
+    </section>
+
+    <section id="main_img2">
+    </section>
+
+    <div class="clear"></div><!--속성해제-->
+    <footer>
+        <div id="footer_box">
+
+        <div id="footer_logo">
+            <img src="./img/logo2.png" width="130">
+        </div>
+        
+        <ul id="address">
+            <li>Address : 81, Hwarang-ro, Deogyang-gu, Goyang-si, Gyeonggi-do, Korea</li>
+            <li>TEL : 010-7275-0308, Instagram : jeonwon1019</li>
+            <li>E-mail : jeonwon1019@naver.com</li>
+            <li>COPYRIGHT (C) JEONWON.ALL RIGHTS RESERVED</li>
+        </ul>
+
+        </div>
+    </footer>
+</body>
+</html>

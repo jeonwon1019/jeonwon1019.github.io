@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STRUCTURE</title>
+    <style>
+    * {
+        padding: 0;
+        margin: 0;
+    }
+    body {
+        font-family: 'Noto Sans KR';
+        font-size: 18px;
+        color: #444444;
+    }
+    .clear {
+        clear: both;
+    }
+    header {
+        width: 1140px;
+        height: 60px;
+        margin: 0 auto;
+        /*border: solid 1px red;*/
+    }
+    #logo {
+        float: left;
+        margin: 20px 0 0 0px;
+        /*border: solid 1px red;*/
+    }
+    li {
+        list-style-type: none;
+    }
+    nav {
+        width: 1140px;
+        height: 40px;
+        margin: 2px auto 0 auto;
+        /*border: solid 1px red;*/
+        color: black;
+    }
+    nav ul {
+        display: flex; /* flexbox를 사용하여 가로 방향으로 나열 */
+        justify-content: center; /* 가로 방향으로 가운데 정렬 */
+        align-items: center; /* 세로 방향으로 가운데 정렬 */
+        height: 100%;
+    }
+    nav li {
+        margin-left: 30px;
+    }
+    a {
+        text-decoration: none;
+        color: #000000;
+    }
+    a:visited,
+    a:hover,
+    a:active {
+        text-decoration: none;
+    }
+    a:hover,
+    a:active {
+        color: navy;
+        font-weight: bold;
+    }
+    #main_img {
+        width: 100%;
+        height: 230px;
+        background-image: url('./img/main8.png');
+        background-repeat: no-repeat;
+        background-position: top center;
+        margin-top: 10px;
+    }
+    #contents {
+        width: 1140px;
+        margin:  0 auto;
+    }
+    #contents h3 {
+        font-size: 22px;
+        padding-bottom: 8px;
+        border-bottom: solid 2px #cccccc;
+    }
+    #contents h4 {
+        font-size: 20px;
+        text-align: center;
+        margin-bottom: 60px;
+        font-weight: bold;
+    }
+    #mainimg {
+        margin: 50px 0 50px 0;
+        text-align: center;
+        border: solid 1px #cccccc;
+    }
+    section ul {
+        display: flex; /* flexbox를 사용하여 가로 방향으로 나열 */
+        justify-content: center; /* 가로 방향으로 가운데 정렬 */
+        align-items: center; /* 세로 방향으로 가운데 정렬 */
+        width: 800px;
+        height: 100px;
+        margin: 0 auto;
+        border: solid 1px black;
+    }
+    section li {
+        width: 400px;
+        height: 100px;
+        margin-left: 0px;
+        border: solid 1px black;
+    }
+    #contents2 {
+        width: 900px;
+        margin:  0 auto;
+        padding-left: 40px;
+        padding-bottom: 30px;
+    }
+    #st1 {
+        float: left;
+        margin: 0px 0 0px 0px;
+    }
+    #contents h5 {
+        float: right;
+        text-align: center;
+        font-size: 18px;
+    }
+    p {
+        font-size: 16px;
+    }
+    footer {
+        width: 100%;
+        height: 110px;
+        margin-top: 30px;
+        font-size: 12px;
+        background-color: #2c2a29;
+    }
+    #footer_box{
+        width: 1140px;
+        height: 110px;
+        margin: 0 auto;
+        /*border: solid 1px green;*/
+    }
+    #footer_logo {
+        float: left;
+        margin: 25px 0 0 0px;
+    }
+    #address {
+        float: right;
+        margin: 19px 0 0 0;
+        color: white;
+        /*border: solid 1px red;*/
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <div id="logo">
+          <a href="index.html"><img src="./img/logo.png" width="130"></a>
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <a href='contents1.html'><li>FRAME TYPE</li></a>
+            <li>|</li>
+            <a href='contents2.html'><li>STRUCTURE</li></a>
+            <li>|</li>
+            <a href='contents3.html'><li>CARE</li></a>
+            <li>|</li>
+            <a href='contents4.html'><li>BLANDS</li></a>
+            <li>|</li>
+            <a href='contents5.html'><li>MY GLASSESS</li></a>
+        </ul>
+    </nav>
+
+    <section id="main_img">
+    </section>
+
+    <section id="contents">
+        <div id="contents">
+            <h3>STRUCTURE - FRAME</h3>
+        </div>
+    </section>
+
+    <section id="contents">
+        <div id="mainimg">
+            <img src="./img/structure.png">
+        </div>
+    </section>
+
+    <section id="contents">
+        <div id="contents">
+            <h4>Parts of an Eyeglasses Frame</h4>
+        </div>
+    </section>
+
+    <section id="contents2">
+        <div id="contents2">
+            <img src="./img/st1.png" id="st1" style="margin-right: 80px;">
+            <h5>1. Temple(안경다리)</h5>
+            <p> ・ 얼굴에 고정하기 위해 힌지와 귀를 고정시키는 프레임, 안경 착용 시 탄성에 의한 안정감 유지<br>
+                ・ 좌우측 귀 높이 조절 / 광학 중심 높이 조절 / 정점간 거리 조정</p>
+        </div>
+    </section>
+
+    <div class="clear"></div><!--속성해제4-->
+    <section id="contents2">
+        <div id="contents2">
+            <img src="./img/st2.png" id="st1" style="margin-right: 80px;">
+            <h5>2. Hinges(힌지)</h5>
+            <p> ・ 안경다리가 접힐 수 있도록 하는 관절 부위<br>
+                ・ 가장 많은 피로가 누적 되는 부위로 고장이 나기 쉬어 유연성을 제공하기도 한다.</p>
+        </div>
+    </section>
+
+    <div class="clear"></div><!--속성해제4-->
+    <section id="contents2">
+        <div id="contents2">
+            <img src="./img/st3.png" id="st1" style="margin-right: 80px;">
+            <h5>3. Lens(렌즈)</h5>
+            <p> ・ 종류 : 단초점, 이중초점, 다초점 렌즈 / 선글라스 및 청색광 렌즈<br>
+                ・ 소재 : 투명유리, 플라스틱 또는 폴리카보네이트<br>
+                ・ 안경테와 더불어 제작시부터 설계가 들어가는 개인화 제품도 있음</p>
+        </div>
+    </section>
+
+    <div class="clear"></div><!--속성해제4-->
+    <section id="contents2">
+        <div id="contents2">
+            <img src="./img/st4.png" id="st1" style="margin-right: 80px;">
+            <h5>4. Nose Pad(코패드)</h5>
+            <p> ・ 프레임 아래 고정되어 코에 닿는 조각으로 콧 등에 안경 안착 및 안경의 무게 분산 기능<br>
+                ・ 재질 : 플라스틱, 실리콘</p>
+        </div>
+    </section>
+
+    <div class="clear"></div><!--속성해제4-->
+    <section id="contents2">
+        <div id="contents2">
+            <img src="./img/st5.png" id="st1" style="margin-right: 80px;">
+            <h5>5. Top Bar(톱바)</h5>
+            <p>・ 얼브리지 위에 프레임을 지지하는 막대<br>
+                ・ 보잉 스타일, 에비에이터 등 트렌디한 프레임에서 볼 수 있음</p>
+        </div>
+    </section>
+
+    <div class="clear"></div><!--속성해제4-->
+    <section id="contents2">
+        <div id="contents2">
+            <img src="./img/st6.png" id="st1" style="margin-right: 80px;">
+            <h5>6. Bridge(브릿지)</h5>
+            <p>・ 코에 가장 가까운 전면 프레임 아치형 부분으로 광학중심 높이 조정 가능<br>
+                ・ 안경 수평균형 및 앞뒤 전정각 조정, 렌즈 광학중심간 거리 조정</p>
+        </div>
+    </section>
+
+    <div class="clear"></div><!--속성해제4-->
+    <section id="contents2">
+        <div id="contents2">
+            <img src="./img/st7.png" id="st1" style="margin-right: 80px;">
+            <h5>7. Nose Pad arm(zhrlend)</h5>
+            <p>・ 프레임과 노즈패드를 지지하는 부품<br>
+                ・ 수직 광심의 높낮이 조정, 망막상의 크기 조정, 안경의 수평균형 조정</p>
+        </div>
+    </section>
+
+    <div class="clear"></div><!--속성해제4-->
+    <section id="contents2">
+        <div id="contents2">
+            <img src="./img/st8.png" id="st1" style="margin-right: 80px;">
+            <h5>8. Temple Tip(안경다리 팁)</h5>
+            <p>・ 머리 귀 뒤쪽을 덮는 다리 끝부분<br>
+                ・ 금속 보다는 아세테이트나 실리콘 재질을 사용</p>
+        </div>
+    </section>
+
+    <div class="clear"></div><!--속성해제4-->
+    <section id="contents2">
+        <div id="contents2">
+            <img src="./img/st9.png" id="st1" style="margin-right: 80px;">
+            <h5>9. Screws(나사)</h5>
+            <p>・ 안경 부품을 연결하여 고정하는 부품, 엔드피스와 템플을 연결하는 힌지를 고정<br>
+                ・ 코패드와 코기둥을 고정하기 위해 사용</p>
+        </div>
+    </section>
+
+    <div class="clear"></div><!--속성해제4-->
+    <section id="contents2">
+        <div id="contents2">
+            <img src="./img/st10.png" id="st1" style="margin-right: 80px;">
+            <h5>10. Endpiece(엔드피스)</h5>
+            <p>・ 전경각 조정, 좌우다리 간격 조정 가능, 광축과 주시선을 일치시키는 기능</p>
+        </div>
+    </section>
+
+    <div class="clear"></div><!--속성해제4-->
+    <section id="contents2">
+        <div id="contents2">
+            <img src="./img/st11.png" id="st1" style="margin-right: 80px;">
+            <h5>11. Eye rim/wires(림)</h5>
+            <p>・ 렌즈 고정 / 렌즈가 삽임되어 고정되는 금속 프레임<br>
+                ・ 색수차, 비점수차, 왜곡수차 보정 / 동공거리 조정</p>
+        </div>
+    </section>
+
+    <div class="clear"></div><!--속성해제4-->
+    <section id="contents2">
+        <div id="contents2">
+            <img src="./img/st12.png" id="st1" style="margin-right: 80px;">
+            <h5>12. Bifocal(이중초점)</h5>
+            <p>・ 이중초점(어시스트), 다초점(누진)렌즈는 외관으로 구분이 되지 않은 렌즈로 되어 있음<br>
+                ・ 이중초점 독서용 하단 삽입 렌즈</p>
+        </div>
+    </section>
+
+    <div class="clear"></div><!--속성해제-->
+    
+    <footer>
+        <div id="footer_box">
+
+        <div id="footer_logo">
+            <img src="./img/logo2.png" width="130">
+        </div>
+        
+        <ul id="address">
+            <li>Address : 81, Hwarang-ro, Deogyang-gu, Goyang-si, Gyeonggi-do, Korea</li>
+            <li>TEL : 010-7275-0308, Instagram : jeonwon1019</li>
+            <li>E-mail : jeonwon1019@naver.com</li>
+            <li>COPYRIGHT (C) JEONWON.ALL RIGHTS RESERVED</li>
+        </ul>
+
+        </div>
+    </footer>
+</body>
+</html>
